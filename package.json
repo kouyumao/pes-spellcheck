@@ -1,0 +1,28 @@
+{
+  "name": "pes-spellcheck",
+  "version": "0.0.1",
+  "description": "spellcheck tool for pes",
+  "main": "index.js",
+  "bin": {
+    "pcheck": "bin/pes-check"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "colors": "^1.1.2",
+    "console.table": "^0.8.0",
+    "spellchecker": "^3.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kouyumao/pes-spellcheck.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kouyumao/pes-spellcheck/issues"
+  },
+  "homepage": "https://github.com/kouyumao/pes-spellcheck#readme"
+}
