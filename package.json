@@ -1,10 +1,10 @@
 {
   "name": "pes-spellcheck",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "spellcheck tool for pes",
-  "main": "index.js",
+  "main": "bin/pes-check",
   "bin": {
-    "pcheck": "bin/pes-check"
+    "pcheck": "bin/pes-check.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const SpellChecker = require('spellchecker');
 const program = require('../package.json');
 const fs = require('fs');
