@@ -78,6 +78,9 @@ fs.readdirSync(path).forEach(dir => {
   if(/(\d+)_(\d+)(.+)/.test(dir)) {
       var files = flist(dir);
       files.forEach(function(file){
+          if(file.substring(0, 1)=='.') {
+              return;
+          }
           var words = check_file(path+'/'+file);
           if(words) {
               words.forEach(function(word){
